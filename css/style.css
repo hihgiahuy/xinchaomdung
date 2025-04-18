@@ -1,0 +1,454 @@
+@font-face {
+  font-family: 'reviewsio-font';
+  src:  url('../fonts/reviewsio-font.eot');
+  src:  url('../fonts/reviewsio-font.eot#iefix') format('embedded-opentype'),
+    url('../fonts/reviewsio-font.woff2') format('woff2'),
+    url('../fonts/reviewsio-font.ttf') format('truetype'),
+    url('../fonts/reviewsio-font.woff') format('woff'),
+    url('../images/reviewsio-font.svg#reviewsio-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ricon-"], [class*=" ricon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'reviewsio-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ricon-align--bottom:before {
+  content: "\e900";
+}
+.ricon-align--center:before {
+  content: "\e901";
+}
+.ricon-align--left:before {
+  content: "\e902";
+}
+.ricon-align--middle:before {
+  content: "\e903";
+}
+.ricon-align--right:before {
+  content: "\e904";
+}
+.ricon-align--top:before {
+  content: "\e905";
+}
+.ricon-arrow--ccw:before {
+  content: "\e906";
+}
+.ricon-arrow--cw:before {
+  content: "\e907";
+}
+.ricon-arrow--down:before {
+  content: "\e908";
+}
+.ricon-arrow--left:before {
+  content: "\e909";
+}
+.ricon-arrow-line--left:before {
+  content: "\e97c";
+}
+.ricon-arrow--right:before {
+  content: "\e90a";
+}
+.ricon-arrow-line--right:before {
+  content: "\e97d";
+}
+.ricon-arrow--up:before {
+  content: "\e90b";
+}
+.ricon-attribute-center-select:before {
+  content: "\e978";
+}
+.ricon-attribute-choice:before {
+  content: "\e979";
+}
+.ricon-attribute-multiple-choice:before {
+  content: "\e97a";
+}
+.ricon-attribute-yes-no:before {
+  content: "\e97b";
+}
+.ricon-badge--checkmark:before {
+  content: "\e959";
+}
+.ricon-bar-chart:before {
+  content: "\e95c";
+}
+.ricon-bell:before {
+  content: "\e976";
+}
+.ricon-bell--filled:before {
+  content: "\e977";
+}
+.ricon-bin:before {
+  content: "\e90c";
+}
+.ricon-book:before {
+  content: "\e90d";
+}
+.ricon-brain-lightning:before {
+  content: "\e988";
+}
+.ricon-brush:before {
+  content: "\e96f";
+}
+.ricon-bulb:before {
+  content: "\e98d";
+}
+.ricon-cart:before {
+  content: "\e964";
+}
+.ricon-chat:before {
+  content: "\e974";
+}
+.ricon-chat--filled:before {
+  content: "\e975";
+}
+.ricon-checkmark:before {
+  content: "\e90e";
+}
+.ricon-checkmark--circle:before {
+  content: "\e970";
+}
+.ricon-clipboard:before {
+  content: "\e98b";
+}
+.ricon-cog:before {
+  content: "\e90f";
+}
+.ricon-cross:before {
+  content: "\e95a";
+}
+.ricon-download--outline:before {
+  content: "\e910";
+}
+.ricon-duplicate:before {
+  content: "\e955";
+}
+.ricon-ellipsis:before {
+  content: "\e911";
+}
+.ricon-ellipsis--vertical:before {
+  content: "\e912";
+}
+.ricon-ellipsis--vertical--double:before {
+  content: "\e966";
+}
+.ricon-email:before {
+  content: "\e913";
+}
+.ricon-email--outline:before {
+  content: "\e914";
+}
+.ricon-exit-door--left:before {
+  content: "\e965";
+}
+.ricon-eye:before {
+  content: "\e915";
+}
+.ricon-facebook-favicon:before {
+  content: "\e916";
+}
+.ricon-fill--highlight:before {
+  content: "\e917";
+}
+.ricon-fill--none:before {
+  content: "\e918";
+}
+.ricon-fill--solid:before {
+  content: "\e919";
+}
+.ricon-flag:before {
+  content: "\e91a";
+}
+.ricon-flip--horizontal:before {
+  content: "\e91b";
+}
+.ricon-flip--vertical:before {
+  content: "\e91c";
+}
+.ricon-font--bold:before {
+  content: "\e91d";
+}
+.ricon-font--italic:before {
+  content: "\e91e";
+}
+.ricon-font-letters:before {
+  content: "\e91f";
+}
+.ricon-font--underline:before {
+  content: "\e920";
+}
+.ricon-grid:before {
+  content: "\e921";
+}
+.ricon-hand-star:before {
+  content: "\e967";
+}
+.ricon-heart:before {
+  content: "\e922";
+}
+.ricon-home:before {
+  content: "\e95d";
+}
+.ricon-influence:before {
+  content: "\e95e";
+}
+.ricon-info:before {
+  content: "\e923";
+}
+.ricon-instagram--outline:before {
+  content: "\e924";
+}
+.ricon-life-saver:before {
+  content: "\e973";
+}
+.ricon-linkedin-favicon:before {
+  content: "\e925";
+}
+.ricon-linked--off:before {
+  content: "\e957";
+}
+.ricon-linked--on:before {
+  content: "\e958";
+}
+.ricon-load-less:before {
+  content: "\e926";
+}
+.ricon-load-more:before {
+  content: "\e927";
+}
+.ricon-load-more--outline:before {
+  content: "\e928";
+}
+.ricon-lock:before {
+  content: "\e956";
+}
+.ricon-lock--outline:before {
+  content: "\e929";
+}
+.ricon-magnet-influence:before {
+  content: "\e95f";
+}
+.ricon-magnifying-glass:before {
+  content: "\e92a";
+}
+.ricon-masonry:before {
+  content: "\e984";
+}
+.ricon-mask:before {
+  content: "\e954";
+}
+.ricon-menu:before {
+  content: "\e95b";
+}
+.ricon-mind:before {
+  content: "\e989";
+}
+.ricon-mind-lightning:before {
+  content: "\e98a";
+}
+.ricon-minus:before {
+  content: "\e96b";
+}
+.ricon-new-tab:before {
+  content: "\e961";
+}
+.ricon-notes:before {
+  content: "\e97f";
+}
+.ricon-nuggets:before {
+  content: "\e97e";
+}
+.ricon-package:before {
+  content: "\e96d";
+}
+.ricon-paper-plane:before {
+  content: "\e92b";
+}
+.ricon-pause:before {
+  content: "\e92c";
+}
+.ricon-pen:before {
+  content: "\e92d";
+}
+.ricon-percentage-star--0:before {
+  content: "\e92e";
+}
+.ricon-percentage-star--25:before {
+  content: "\e92f";
+}
+.ricon-percentage-star--50:before {
+  content: "\e930";
+}
+.ricon-percentage-star--75:before {
+  content: "\e931";
+}
+.ricon-percentage-star--100:before {
+  content: "\e932";
+}
+.ricon-photo:before {
+  content: "\e933";
+}
+.ricon-photo--outline:before {
+  content: "\e934";
+}
+.ricon-pin:before {
+  content: "\e963";
+}
+.ricon-pinterest-favicon:before {
+  content: "\e935";
+}
+.ricon-play:before {
+  content: "\e936";
+}
+.ricon-play--circle:before {
+  content: "\e937";
+}
+.ricon-plus:before {
+  content: "\e96c";
+}
+.ricon-question-mark:before {
+  content: "\e938";
+}
+.ricon-rectangle-star:before {
+  content: "\e960";
+}
+.ricon-reviewsio-favicon:before {
+  content: "\e939";
+}
+.ricon-reviewsio-logo:before {
+  content: "\e93a";
+}
+.ricon-reviewsio-logo--minimised:before {
+  content: "\e93b";
+}
+.ricon-shape--triangle-circle:before {
+  content: "\e93c";
+}
+.ricon-share:before {
+  content: "\e93d";
+}
+.ricon-shield-star:before {
+  content: "\e968";
+}
+.ricon-shopify:before {
+  content: "\e96e";
+}
+.ricon-solid-arrow--down:before {
+  content: "\e986";
+}
+.ricon-solid-arrow--up:before {
+  content: "\e987";
+}
+.ricon-speech-bubble--answer:before {
+  content: "\e93e";
+}
+.ricon-speech-bubble--question:before {
+  content: "\e93f";
+}
+.ricon-star:before {
+  content: "\e940";
+}
+.ricon-star-bars:before {
+  content: "\e980";
+}
+.ricon-star-box--outline:before {
+  content: "\e941";
+}
+.ricon-star-cog:before {
+  content: "\e981";
+}
+.ricon-star-email:before {
+  content: "\e969";
+}
+.ricon-stars-group:before {
+  content: "\e982";
+}
+.ricon-tag:before {
+  content: "\e942";
+}
+.ricon-textalign--center:before {
+  content: "\e943";
+}
+.ricon-textalign--justify:before {
+  content: "\e944";
+}
+.ricon-textalign--left:before {
+  content: "\e945";
+}
+.ricon-textalign--right:before {
+  content: "\e946";
+}
+.ricon-thin-arrow--down:before {
+  content: "\e947";
+}
+.ricon-thin-arrow--left:before {
+  content: "\e948";
+}
+.ricon-thin-arrow--right:before {
+  content: "\e949";
+}
+.ricon-thin-arrow--up:before {
+  content: "\e94a";
+}
+.ricon-thin-arrow--updown:before {
+  content: "\e983";
+}
+.ricon-thin-close:before {
+  content: "\e94b";
+}
+.ricon-thin-minus:before {
+  content: "\e94c";
+}
+.ricon-thin-plus:before {
+  content: "\e94d";
+}
+.ricon-thumbsdown:before {
+  content: "\e94e";
+}
+.ricon-thumbsup:before {
+  content: "\e94f";
+}
+.ricon-todo:before {
+  content: "\e985";
+}
+.ricon-trophy-star:before {
+  content: "\e96a";
+}
+.ricon-twitter-favicon:before {
+  content: "\e950";
+}
+.ricon-upload--outline:before {
+  content: "\e951";
+}
+.ricon-user:before {
+  content: "\e962";
+}
+.ricon-user--add:before {
+  content: "\e952";
+}
+.ricon-video-camera:before {
+  content: "\e972";
+}
+.ricon-warning:before {
+  content: "\e971";
+}
+.ricon-x-favicon:before {
+  content: "\e98c";
+}
+.ricon-youtube-favicon:before {
+  content: "\e953";
+}

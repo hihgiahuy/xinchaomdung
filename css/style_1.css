@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'product-widget-iconfont';
+	src:url('../fonts/product-widget-iconfont.eot');
+	src:url('../fonts/product-widget-iconfont_1.eot#iefixmnkjqu') format('embedded-opentype'),
+		url('../fonts/product-widget-iconfont.woff') format('woff'),
+		url('../fonts/product-widget-iconfont.ttf') format('truetype'),
+		url('../images/product-widget-iconfont.svg#product-widget-iconfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ruk-icon-"], [class*=" ruk-icon-"] {
+	font-family: 'product-widget-iconfont';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ruk-icon-reviews-logo-01:before {
+	content: "\e600";
+}
+.ruk-icon-full-star-01:before {
+	content: "\e601";
+}
+.ruk-icon-empty-star-01:before {
+	content: "\e602";
+}
+.ruk-icon-arrow-down-01:before {
+	content: "\e603";
+}
+.ruk-icon-positive-1-01:before {
+	content: "\e604";
+}
+.ruk-icon-negative-1-01:before {
+	content: "\e605";
+}
+.ruk-icon-chart-lines-1-01:before {
+	content: "\e606";
+}
+.ruk-icon-positive-2-01:before {
+	content: "\e607";
+}
+.ruk-icon-email-1-01:before {
+	content: "\e608";
+}
+.ruk-icon-phone-1-01:before {
+	content: "\e609";
+}
+.ruk-icon-location-1-01:before {
+	content: "\e60a";
+}
+.ruk-icon-author-1-01:before {
+	content: "\e60b";
+}
+.ruk-icon-positive-3-01:before {
+	content: "\e60c";
+}
+.ruk-icon-thumbs-up-1-01:before {
+	content: "\e60d";
+}
+.ruk-icon-report-1-01:before {
+	content: "\e60e";
+}
+.ruk-icon-arrow-up-thin-1-01:before {
+	content: "\e60f";
+}
+.ruk-icon-arrow-down-thin-1-01:before {
+	content: "\e610";
+}
+.ruk-icon-menu-1-01:before {
+	content: "\e611";
+}
+.ruk-icon-key-1-01:before {
+	content: "\e612";
+}
+.ruk-icon-dashboard-1-01:before {
+	content: "\e613";
+}
+.ruk-icon-store-1-01:before {
+	content: "\e614";
+}
+.ruk-icon-iphone-1-01:before {
+	content: "\e615";
+}
+.ruk-icon-col-term-1-01:before {
+	content: "\e616";
+}
+.ruk-icon-group-1-01:before {
+	content: "\e617";
+}
+.ruk-icon-cog-1-01:before {
+	content: "\e618";
+}
+.ruk-icon-power-1-01:before {
+	content: "\e619";
+}
+.ruk-icon-ellipsis-1-01:before {
+	content: "\e61a";
+}
+.ruk-icon-share-1-01:before {
+	content: "\e61b";
+}
+.ruk-icon-tooltip-arrow-1-01:before {
+	content: "\e61c";
+}
+.ruk-icon-chart-pie-1-01:before {
+	content: "\e61d";
+}
+.ruk-icon-reply-arrow-1-01:before {
+	content: "\e61e";
+}
+.ruk-icon-moderate-1-01:before {
+	content: "\e61f";
+}
+.ruk-icon-google-plus-1-01:before {
+	content: "\e620";
+}
+.ruk-icon-facebook-1-01:before {
+	content: "\e621";
+}
+.ruk-icon-twitter-1-01:before {
+	content: "\e622";
+}
+.ruk-icon-arrow-right-1-01:before {
+	content: "\e623";
+}
+.ruk-icon-arrow-left-1-01:before {
+	content: "\e624";
+}

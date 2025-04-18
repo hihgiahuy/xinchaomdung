@@ -1,0 +1,2 @@
+(function(){const init=()=>{window.zE("webWidget","hide"),window.zE("webWidget:on","chat:unreadMessages",number=>{document.querySelectorAll("[data-chat-blip]").forEach(e=>{e.innerHTML=number})}),window.zE("webWidget:on","userEvent",event=>{event.action==="Chat Served by Operator"&&document.dispatchEvent(new CustomEvent("cs:chatStarted",{detail:{agent:event.properties.agent}}))})};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()})();
+//# sourceMappingURL=/cdn/shop/t/96/assets/zendesk-button.js.map?v=93212948276473359781744203338

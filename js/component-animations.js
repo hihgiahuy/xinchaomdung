@@ -1,0 +1,2 @@
+(function(elements){const threshold=Shopify||Shopify.designMode===!0?0:.15,observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{entry.isIntersecting&&(entry.target.classList.add("section-in-view"),entry.target.dispatchEvent(new CustomEvent("section:in-viewport")),observer.unobserve(entry.target))})},{root:null,rootMargin:"0px",threshold:[threshold,1]});elements.forEach(el=>{observer.observe(el)})})(document.querySelectorAll(".shopify-section"));
+//# sourceMappingURL=/cdn/shop/t/96/assets/component-animations.js.map?v=86826001650290852471744203220

@@ -1,0 +1,9 @@
+.icons-with-text .splide__arrows {
+    display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+    .icons-with-text .splide__list li:first-of-type {
+        padding-left: 16px;
+    }
+}
